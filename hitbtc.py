@@ -53,8 +53,7 @@ def main():
 			print('time: ' + str(P['ETHBTC']['timestamp']))
 			for i in Coin:
 				print(i + ': ' + P[i]['last'])
-		elif cmd == 'exit':
-			break;
+		elif cmd == 'exit': break
 if len(sys.argv) > 1 and sys.argv[1] == '-r':
 	while True:
 			P = requests.get(site+'/api/1/public/ticker').json()
