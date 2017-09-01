@@ -10,7 +10,7 @@ import sys
 site = "http://api.hitbtc.com"
 apikey = ""
 secret = ""
-Coin = ['ETHBTC', 'XMRBTC', 'DASHBTC', 'BTCUSD', 'ZECBTC', 'LTCBTC', 'BTUBTC']
+Coin = ['ETHBTC', 'XMRBTC', 'DASHBTC', 'BTCUSD', 'ZECBTC', 'LTCBTC', 'BCCBTC']
 
 def sha512(s, m):
 	a = bytearray()
