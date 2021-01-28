@@ -1,4 +1,4 @@
-# hitbtc_tool
+# hitbtc-autorecord-tool
 ## common: 	
 now: now price <br>
 balance: your balance on Hitbtc <br>
